@@ -36,4 +36,6 @@ function reset()
 {
     score1.textContent="00";
     score2.textContent="00";
+    value1=0;
+    value2=0;
 }
