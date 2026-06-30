@@ -6,11 +6,13 @@ body { min-height: 100vh;
     align-items: center;
     font-family: "Pixelify Sans", sans-serif;
     background-size: cover;
+    overflow-x: hidden;
 }
 *{
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    max-width: 100%;
    
 }
 .container
