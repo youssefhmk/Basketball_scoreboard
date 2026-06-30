@@ -1,0 +1,48 @@
+
+body { min-height: 100vh; 
+    background-color:darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Pixelify Sans", sans-serif;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+   
+}
+.container
+{
+    margin-top: -120px;
+    width: 600px;
+    height: 500px;
+    gap: 30px;
+}
+.home, .guest {
+    background: #16213e;  /* لون غامق للخلفية */
+    color: white;         /* لون النص */
+    padding: 10px 20px;
+    border-radius: 8px;
+    flex: 1;              /* يخليهم بنفس الحجم */
+    text-align: center;
+}
+.sub_container
+{
+    display: flex;
+    gap: 60px;
+    width:600px ;
+    height: 150px;
+}
+.nums{
+    margin-top: 10px;
+    font-size: 80px;
+}
+.sub2{
+    width: auto; background-color: black; height: 30px;margin-top: 20px;
+}
+.but{
+    border: none;
+    padding: 5px;
+}
